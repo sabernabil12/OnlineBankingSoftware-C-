@@ -1,5 +1,6 @@
-#ifndef acnt
+//Header File
 
+#ifndef acnt
 #define acnt
 
 class account
@@ -7,7 +8,6 @@ class account
 public:
 	account();
 	account(double b, int n);
-
 	int getAccountNo();
 	void setAccountNo(int n);
 	void read();
